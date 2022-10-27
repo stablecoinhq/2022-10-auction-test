@@ -41,10 +41,6 @@ const config: HardhatUserConfig = {
         blockNumber: 7840347
       },
     },
-    goerli: {
-      url: `https://goerli.infura.io/v3/${INFURA_KEY}`,
-      accounts: [PRIVATE_KEY],
-    },
   },
 };
 
