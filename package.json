@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "manipulate-hat": "npx hardhat run --network localhost ./scripts/manipulateHat.ts",
+    "deploy": "npx hardhat run --network localhost ./scripts/deploy.ts",
+    "deploy-goerli": "npx hardhat run --network goerli ./scripts/deploy-goerli.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
